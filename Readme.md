@@ -26,8 +26,8 @@ The api uses the following defaults in the case of omission.
 
 | Param| Default value| Comments|
 |--------|:------:|-------|
-|book | Genesis | No comment 
-|chapter| 1 | No comment
+|book | Genesis | Book of the bible to return 
+|chapter| 1 | Chapter to return
 | verse_from | 1| The verse to start from
 |verse_to | None | The verse to end
 |translation| kjv | Translation to return.
