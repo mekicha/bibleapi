@@ -28,7 +28,7 @@ book - Genesis
 chapter - 1
 verse_from - 1
 verse_to - No default value
-translation - kjv.
+translation - web.
 verse_numbers - True. If set to False
 ```
 | Param| Default value| Comments|
@@ -37,5 +37,16 @@ verse_numbers - True. If set to False
 |chapter| 1 | No comment
 | verse_from | 1| The verse to start from
 |verse_to | None | The verse to end
-|translation| kjv | Translation to return
+|translation| kjv | Translation to return.
 |verse_numbers| `True`| Return verse_numbers in text if `True`.
+
+
+## Available Translations
+|Language|Name|Identifier|
+|----|------|-------|
+|Cherokee|	Cherokee New Testament|	cherokee
+|English|	King James Version|	kjv
+|English|	World English Bible	web| (default)
+|Latin|	Clementine Latin Vulgate|	clementine
+|Portuguese	|João Ferreira de Almeida|	almeida
+|Romanian	|Romanian Corrected Cornilescu Version|	rccv
