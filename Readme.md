@@ -15,7 +15,7 @@ print(scripture)
 ```
 
 Response:
-```json
+```js
     {'reference': 'John 3:16-18', 'verses': [{'book_id': 'JHN', 'book_name': 'John', 'chapter': 3, 'verse': 16, 'text': 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.\n'}, {'book_id': 'JHN', 'book_name': 'John', 'chapter': 3, 'verse': 17, 'text': 'For God sent not his Son into the world to condemn the world; but that the world through him might be saved.'}, {'book_id': 'JHN', 'book_name': 'John', 'chapter': 3, 'verse': 18, 'text': 'He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.\n'}], 
     'text': 'For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.\nFor God sent not his Son into the world to condemn the world; but that the world through him might be saved. He that believeth on him is not condemned: but he that believeth not is condemned already, because he hath not believed in the name of the only begotten Son of God.\n', 'translation_id': 'kjv', 'translation_name': 'King James Version', 'translation_note': 'Public Domain'}
 ```
@@ -23,14 +23,7 @@ Response:
 
 ## Defaults
 The api uses the following defaults in the case of omission.
-```
-book - Genesis
-chapter - 1
-verse_from - 1
-verse_to - No default value
-translation - web.
-verse_numbers - True. If set to False
-```
+
 | Param| Default value| Comments|
 |--------|:------:|-------|
 |book | Genesis | No comment 
